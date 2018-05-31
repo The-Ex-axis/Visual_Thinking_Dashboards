@@ -1,0 +1,56 @@
+---
+title: "Flex with datanav-menu"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Page 1 {data-navmenu='First graph'}
+==========================================
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Page 2 {data-navmenu='First graph'}
+============================================
+
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
+
+Page 3 
+===================================================
+
+column
+---------------------------------------------------
+
+## Chart E
+```{r}
+
+```
+
