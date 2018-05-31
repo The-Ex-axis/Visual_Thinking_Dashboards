@@ -1,0 +1,40 @@
+---
+title: "Flex with pages"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+First Page
+=========================================
+Column
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Second Page
+==========================================
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
